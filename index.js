@@ -31,6 +31,7 @@ function accordion(title, products) {
             <a href="#" class="btn btn-primary">Add to cart</a>
         </div>
     </div>`;
+    
     }
     value = value.replace(/##REPLACE##/gi, replace);
     return value;
